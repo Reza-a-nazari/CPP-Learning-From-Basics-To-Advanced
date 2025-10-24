@@ -4,15 +4,15 @@ using namespace std;
 
 class QueueString {
 private:
-    stack<string> s1;  // برای enqueue
-    stack<string> s2;  // برای dequeue
+    stack<string> s1;  // for enqueue
+    stack<string> s2;  // for dequeue
 
 public:
-    QueueString() {}  // کانستراکتور پیش‌فرض
+    QueueString() {}  // Default Constructor
 
     void enqueue(string s) 
     {
-        // فقط push در s1 → O(1)
+        // just push at s1 → O(1)
         s1.push(s);
     }
 
@@ -20,10 +20,10 @@ public:
     {
         if (s1.empty() && s2.empty()) 
         {
-            throw exception(); // Queue خالی است
+            throw exception(); 
         }
 
-        // اگر s2 خالی بود، همه عناصر s1 را به s2 منتقل کن
+        
         if (s2.empty()) 
         {
             while (!s1.empty()) {
@@ -39,10 +39,10 @@ public:
     {
         if (s1.empty() && s2.empty()) 
         {
-            throw exception(); // Queue خالی است
+            throw exception(); 
         }
 
-        // اگر s2 خالی است، باید s1 را منتقل کنیم
+        
         if (s2.empty()) 
         {
             while (!s1.empty()) {
@@ -71,10 +71,10 @@ int main() {
     q.enqueue("world");
     q.enqueue("GPT");
 
-    cout << "Front: " << q.front() << endl; // hello
+    cout << "Front: " << q.front() << endl; 
     q.dequeue();
-    cout << "Front: " << q.front() << endl; // world
-    cout << "Size: " << q.size() << endl;   // 2
+    cout << "Front: " << q.front() << endl; 
+    cout << "Size: " << q.size() << endl;   
 
     return 0;
 }
