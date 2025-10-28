@@ -5,7 +5,6 @@
 #include <vector>
 #include <algorithm>
 #include <climits>
-#include <set>
 
 using namespace std;
 
@@ -19,7 +18,6 @@ class MyStack {
 private:
     Node* top;
     int size;
-    multiset<int> val ;
 public:
     MyStack(): top(nullptr), size(0) {}
 
@@ -30,8 +28,6 @@ public:
 
         top = nextNode ;
 
-        val.insert(value);  
-
         size++;
     }
 
@@ -40,7 +36,6 @@ public:
         {
             Node * temp = top ;
             top = top->next;
-            val.erase(val.find(temp->value));
             delete temp ;
             size--;
         }
@@ -60,8 +55,10 @@ public:
         return size ;
     }
 
-    bool IsEmpty() {
-        return top == nullptr;
+    bool IsEmpty() { 
+        if(top==nullptr)
+            return true ;
+        return false ;
     }
 
     void Reverse() {
@@ -86,7 +83,17 @@ public:
     int GetMin() {
         if (top == nullptr)
             throw runtime_error("EMPTY");
-        return  * val.begin();
+        Node * toper = top ;
+        int temp = INT_MAX ;
+        while(toper!=nullptr)
+        {
+            if(toper->value< temp)
+            {
+                temp = toper->value ;
+            }
+            toper = toper->next ;
+        }
+        return temp ;
     }
 
     ~MyStack() {
