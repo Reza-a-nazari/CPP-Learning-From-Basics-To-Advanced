@@ -1,0 +1,15 @@
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\bin\Debug\net9.0\Editor.exe
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\bin\Debug\net9.0\Editor.deps.json
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\bin\Debug\net9.0\Editor.runtimeconfig.json
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\bin\Debug\net9.0\Editor.dll
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\bin\Debug\net9.0\Editor.pdb
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.AssemblyInfoInputs.cache
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.AssemblyInfo.cs
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.csproj.CoreCompileInputs.cache
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.sourcelink.json
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.dll
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\refint\Editor.dll
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.pdb
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\Editor.genruntimeconfig.cache
+C:\Users\Asus\git\CPP-Learning-From-Basics-To-Advanced\basics\11-Ai_editor\Editor\obj\Debug\net9.0\ref\Editor.dll
